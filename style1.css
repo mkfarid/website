@@ -1,0 +1,38 @@
+#clock {
+      
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+color: aliceblue;
+    padding-left: 10px;
+  }
+  .bd{
+    background-color: darkgrey;
+  }
+  .cls{
+    
+    text-align: center;
+  }
+
+  .align{
+    text-align: center;
+  }
+  .paddd{
+    
+    padding-left: 20px;
+  }
+
+  .top{
+    padding-top: 20px;
+  }
+  .font{
+    color: red;
+    font-family:serif;
+  }
+  .fix{
+  
+    padding-top: 20px;
+text-align: center;
+    height: 350px;
+    width: 1000px;
+  }

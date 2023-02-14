@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="icon" href="favicon.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style1.css">
+   
+   <script src="clock.js"></script>
+  </head>
+  <body>
+
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+         
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link  " aria-current="page" href="web.html">Home</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="watch.html">Clock</a>
+              </li>
+
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Topics
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="tech.html">Technology</a></li>
+                  <li><a class="dropdown-item" href="#">Web development</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="support.html">Support</a></li>
+                  <li><a class="dropdown-item" href="feedback.html">Write for us</a></li>
+                </ul>
+              </li>
+              <li class="nav-item  active ">
+                <a class="nav-link" href="contact.html">Contact Us</a>
+             </li>
+<li>   
+        <div  style =" background-color: black;"id="clock"> </div>
+</li>
+     
+
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-light" type="submit">Search</button>
+            </form>
+            <div  mx-2>
+
+                <button class="btn btn-outline-primary"> <a  href="loginpage.html">Login</a></button> 
+                <button  class="btn btn-outline-primary"> <a  href="signup.html"> Signup</a> </button>
+
+            </div>
+
+          </div> 
+        </div>
+      </nav>
+
+
+      <div  style=  "text-align: center;"   id="carouselExampleFade" class="carousel slide carousel-fade ">
+        <div class="carousel-inner " >
+          <div  class="carousel-item active ">
+            <img height="400" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Suru_Bog_10000px.jpg/1200px-Suru_Bog_10000px.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h2 class="font">Welcome to mysite </h2>
+              <h4 class="font">This is our startup .</h4>
+              <button class="btn btn-danger"> <a  href="https://www.globalmediainsight.com/blog/web-development-trends/">Technology</a></button> 
+              <button class="btn btn-danger"> <a  href="https://www.globalmediainsight.com/blog/web-development-trends/">Web</a></button> 
+              <button class="btn btn-danger"> <a  href="https://www.globalmediainsight.com/blog/web-development-trends/">Tech</a></button> 
+                
+              
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img  height="400" src="wb.jpeg"   class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h2  class="font">Welcome to mysite </h2>
+              <h4  class="font">This is our startup .</h4>
+              <button class="btn btn-danger"> <a  href="https://www.globalmediainsight.com/blog/web-development-trends/">Technology</a></button> 
+              <button class="btn btn-danger"> <a  href="https://www.globalmediainsight.com/blog/web-development-trends/">Web</a></button> 
+              <button class="btn btn-danger"> <a  href="https://www.globalmediainsight.com/blog/web-development-trends/">Tech</a></button> 
+                
+              
+            </div>  
+          
+          </div>
+          <div class="carousel-item">
+            <img  height="400"  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTygRYwBPoLMQR-zUhUJs2nz1n34G4wVkrpqA&usqp=CAU" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h2 class="font">Welcome to mysite </h2>
+              <h4 class="font" >This is our startup .</h4>
+              <button class="btn btn-danger"> <a  href="https://www.globalmediainsight.com/blog/web-development-trends/">Technology</a></button> 
+              <button class="btn btn-danger"> <a  href="https://www.globalmediainsight.com/blog/web-development-trends/">Web</a></button> 
+              <button class="btn btn-danger"> <a  href="https://www.globalmediainsight.com/blog/web-development-trends/">Tech</a></button> 
+                
+              
+            </div>
+          </div>
+        </div>
+        <button
+        
+        class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div class="container my-4">
+
+        <div class="row mb-2">
+            <div class="col-md-6">
+              <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                <div class="col p-4 d-flex flex-column position-static">
+                  <strong class="d-inline-block mb-2 text-primary">World</strong>
+                  <h3 class="mb-0">Welcome to our channel</h3>
+                  <div class="mb-1 text-muted">Nov 12</div>
+                  <p class="card-text mb-auto">Welcome to our website dedicated to web development! Here, you will find all the information and resources you need to start your journey as a web developer or enhance your existing skills. Our team of experts has put together comprehensive guides, tutorials, and blog posts that cover a range of topics, including HTML, CSS, JavaScript, and various frameworks and tools. Whether you're just getting started or looking to take your web development skills to the next level, our website has something for everyone. So, dive in, learn, and grow your knowledge with us!.</p>
+                  <a href="#" class="stretched-link">Continue reading</a>
+                </div>
+                <div class="col-auto d-none d-lg-block">
+                  <img class="img-fluid"  width="200" height="250" src="img2.jpeg" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                <div class="col p-4 d-flex flex-column position-static">
+                  <strong class="d-inline-block mb-2 text-success">Python</strong>
+                  <h3 class="mb-0">Connect With Us </h3>
+                  <div class="mb-1 text-muted">Nov 11</div>
+                  <p class="mb-auto">A coding website is a platform that provides resources, tutorials, and tools for individuals to learn and practice coding. It's a one-stop-shop for people interested in web development, software engineering, or any other field that requires coding skills. These websites often offer interactive lessons, coding challenges, and projects to help users build and apply their knowledge. They also have a community of users, where coders can ask questions, collaborate on projects, and share their work. Whether you're a beginner or an experienced coder, a coding website is a valuable resource to enhance your skills and stay up-to-date with the latest technologies.</p>
+                  <a href="#" class="stretched-link">Continue reading</a>
+                </div>
+                <div class="col-auto d-none d-lg-block">
+                 <img class="img-fluid"  width="200" height="250" src="img3.jpg" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+
+
+
+
+
+      <footer class="container">
+        <p class="float-end"><a href="#">Back to top</a></p>
+        <p>© 2021–2022 Company, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+      </footer>
+     </body>
+</html>
